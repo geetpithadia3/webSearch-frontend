@@ -1,0 +1,42 @@
+    ::ng-deep .mat-focused .mat-form-field-label {
+        /*change color of label*/
+        color: white !important;
+       }
+      
+       ::ng-deep.mat-form-field-underline {
+        /*change color of underline*/
+        background-color: white !important;
+      } 
+      
+      ::ng-deep.mat-form-field-ripple {
+       /*change color of underline when focused*/
+       background-color: white !important;;
+      }
+      input{
+        transition: 0.5s ease;
+        font-size: 25px;
+      }
+      input:focus{
+        font-size: 35px !important;
+      }
+      mat-card{
+        transition: 0.5s ease;
+      }
+      mat-card:hover{
+        box-shadow: 0px 0px 15px lightgrey;
+        width:110%
+        /* background-color: rgb(136, 130, 214); */
+      }
+      /* ::ng-deep .mat-icon:{
+        height:48px !important;
+        width:48px !important;
+        font-size:48px !important;
+    } */
+      /* mat-icon{
+        transition: 1s ease;
+      }
+      mat-icon:focus{
+        font-size: 50px;
+      } */
+     
+   
